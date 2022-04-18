@@ -1,7 +1,7 @@
 const tela = document.querySelector("canvas");
 const pincel = tela.getContext("2d");
 
-const w = tela.width = document.body.offsetWidth;
+const w = tela.width = 1920;
 const h = tela.height = 1080;
 const colunas = Math.floor(w / 20) + 1;
 const posiçãoY = Array(colunas).fill(0);
