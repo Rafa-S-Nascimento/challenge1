@@ -6,8 +6,7 @@
 }
 
 
-body{
-    text-align: center;
+body{    
     height: 100vh;
     widows: 100vw;
     overflow: hidden;
@@ -73,8 +72,7 @@ textarea:focus{
 span{
     display: block;
     text-align: left;
-    font-size: 0.7rem;
-    padding-left: 10px;    
+    font-size: 0.7rem;        
     color: rgba(0,0,0,0.5);
 }
 span i{
@@ -93,6 +91,7 @@ span i{
     right: 20px;
     top: 20px;
     width: 29%;
+    text-align: center;
     min-width: 240px;
     height: calc(100% - 40px);    
     border-radius: 10px;
