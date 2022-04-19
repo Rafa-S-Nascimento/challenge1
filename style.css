@@ -6,29 +6,28 @@
 }
 
 
-body{    
-    height: 100vh;
-    widows: 100vw;
+body{
+    display: flex;
+    justify-content: center;    
     overflow: hidden;
     padding: 0;
-    color: darkblue;
+    color: darkblue;    
 }
 
 
 .container{
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    top: 20px;
-    width: 80%;
-    height: 90vh;
-    max-width: 1100px;
-    max-height: 585px;
-    min-height: 580px;
+    top: 20px;    
+    width: 90%;
+    height: 80vh;
+    max-width: 1280px;    
+    min-height: 620px;
     min-width: 800px;
-    margin-left: 10vw;
-    margin-right: 10vw;    
+    margin-left: auto;
+    margin-right: auto;   
     padding: 20px;
-    border-radius: 10px;    
+    border-radius: 10px;        
 }
 
 
@@ -72,7 +71,7 @@ textarea:focus{
 span{
     display: block;
     text-align: left;
-    font-size: 0.7rem;        
+    font-size: 0.7rem;            
     color: rgba(0,0,0,0.5);
 }
 span i{
@@ -85,19 +84,19 @@ span i{
 }
 
 
-.exibirMsg{
+.exibirMsg{    
     display: flex;
     position: absolute;;
     right: 20px;
     top: 20px;
     width: 29%;
-    text-align: center;
     min-width: 240px;
     height: calc(100% - 40px);    
     border-radius: 10px;
     background-color: white;
     padding: 20px;
-    color: black;    
+    color: black;
+    text-align: center;   
 }
 .msg p{
     max-height: 430px;
