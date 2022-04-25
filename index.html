@@ -1,49 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/162b81ecbe.js" crossorigin="anonymous"></script>
-    <title>Chellenge#1</title>
-</head>
-<body>
-    <canvas width="600px" height="400px"></canvas>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="style.css" rel="stylesheet" />
+        <script
+            src="https://kit.fontawesome.com/162b81ecbe.js"
+            crossorigin="anonymous"
+        ></script>
+        <title>Chellenge#1</title>
+    </head>
+    <body>
+        <canvas width="600px" height="400px"></canvas>
 
-    <div class="container">
-        <a href="#"><img class="logo" src="./img/Vector.png"></a>
+        <div class="container">
+            <a href="#"><img class="logo" src="./img/Vector.png" /></a>
 
-        <textarea class="entrada" id="inputText" placeholder="Digite seu texto"></textarea>
-        
-        <div class="buttons">
-            <span><i class="fa-solid fa-circle-exclamation"></i>Apenas letras minúsculas e sem acento.</span>
-            <button class="bt" id="bCriptografar">Criptografar</button>
-            <button class="bt" id="bDescriptografar">Descriptografar</button>
+            <section>
+                <textarea
+                    class="entrada"
+                    id="inputText"
+                    placeholder="Digite seu texto"
+                ></textarea>
+            </section>
+
+            <section>
+                <div class="buttons">
+                    <span
+                        ><i class="fa-solid fa-circle-exclamation"></i>Apenas
+                        letras minúsculas e sem acento.</span
+                    >
+                    <button class="bt" id="bCriptografar">Criptografar</button>
+                    <button class="bt" id="bDescriptografar">
+                        Descriptografar
+                    </button>
+                </div>
+            </section>
+
+            <section>
+                <div class="exibirMsg">
+                    <div class="msg">
+                        <p id="msgP"></p>
+                    </div>
+                    <div class="divImg">
+                        <div>
+                            <img src="./img/High quality products 1 1.png" />
+                        </div>
+                        <div class="divText">
+                            <h3>Nenhuma mensagem<br />encontrada</h3>
+                            <p>
+                                Digite um texto que você deseja<br />
+                                criptografar ou descriptografar.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="divBotao">
+                        <button id="copia" class="bt">Copiar</button>
+                    </div>
+                </div>
+            </section>
         </div>
 
-        <div class="exibirMsg">
-            <div class="msg">
-                <p id="msgP">
-                </p>
-            </div>
-            <div class="divImg">
-                <div> 
-                    <img src="./img/High quality products 1 1.png">                
-                </div>
-                <div class="divText">
-                    <h3>Nenhuma mensagem<br>encontrada</h3>
-                    <p>Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
-                </div>
-            </div>
-
-            <div class="divBotao">
-                <button id="copia" class="bt">Copiar</button>
-            </div>
-        </div>
-    </div>
-
-    <script src="matrix.js"></script>
-    <script src="script.js"></script>
-</body>
+        <script src="matrix.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
