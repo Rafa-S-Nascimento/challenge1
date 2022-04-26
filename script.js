@@ -55,15 +55,15 @@ function descriptografar() {
 
     if (texto != "") {
         resultado = texto.replace(/enter|imes|ai|ober|ufat/g, function (x) {
-            if (x == "enter") {
+            if (x == criptografia[0]) {
                 return descriptografia[0];
-            } else if (x == "imes") {
+            } else if (x == criptografia[1]) {
                 return descriptografia[1];
-            } else if (x == "ai") {
+            } else if (x == criptografia[2]) {
                 return descriptografia[2];
-            } else if (x == "ober") {
+            } else if (x == criptografia[3]) {
                 return descriptografia[3];
-            } else if (x == "ufat") {
+            } else if (x == criptografia[4]) {
                 return descriptografia[4];
             }
         });
