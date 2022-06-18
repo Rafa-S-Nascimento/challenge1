@@ -1,157 +1,148 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-body{
+body {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     overflow: hidden;
     padding: 0;
-    color: darkblue;    
+    color: darkblue;
 }
 
-
-.container{
+.container {
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    top: 20px;    
+    top: 20px;
     width: 90%;
     height: 80vh;
-    max-width: 1280px;    
-    min-height: 620px;
+    max-width: 1280px;
+    min-height: 580px;
     min-width: 800px;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;
     padding: 20px;
-    border-radius: 10px;        
+    border-radius: 10px;
 }
 
-
-.logo{
+.logo {
     position: absolute;
     left: 35px;
 }
 
-
-.entrada{
-    position:absolute;
+.entrada {
+    position: absolute;
     top: 120px;
-    left: 130px;    
+    left: 130px;
     min-height: 35px;
-    width: 47%; 
+    width: 47%;
     min-width: 250px;
-    height: 320px;   
+    height: 320px;
     font-size: 1.4rem;
-    text-align: justify;   
+    text-align: justify;
     background-color: transparent;
-    border: none;    
+    border: none;
     color: darkblue;
     padding-left: 5px;
     padding-top: 2px;
-    resize: none;    
+    resize: none;
 }
-textarea:focus{
+textarea:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-
-.buttons{
+.buttons {
     position: absolute;
     width: 47%;
     left: 130px;
     bottom: calc(0% + 20px);
-    margin-bottom: 20px;    
-    color: blue;   
+    margin-bottom: 20px;
+    color: blue;
 }
-span{
+span {
     display: block;
     text-align: left;
-    font-size: 0.7rem;            
-    color: rgba(0,0,0,0.5);
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.5);
 }
-span i{
+span i {
     margin-right: 5px;
 }
-.buttons button:first-of-type{
+.buttons button:first-of-type {
     background-color: darkblue;
     color: white;
     margin-top: 10px;
 }
 
-
-.exibirMsg{    
+.exibirMsg {
     display: flex;
     position: absolute;
     right: 20px;
     top: 20px;
     width: 29%;
     min-width: 240px;
-    height: calc(100% - 40px);    
+    height: calc(100% - 40px);
     border-radius: 10px;
     background-color: white;
     padding: 20px;
     color: black;
-    text-align: center;   
+    text-align: center;
 }
-.msg p{
+.msg p {
     max-height: 430px;
-    overflow: auto;    
+    overflow: auto;
     padding-right: 2px;
-    text-align: left;    
-    color: rgba(0, 0, 0, 0.6);    
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
 }
 
-
-.divImg{
+.divImg {
     display: flex;
     flex-direction: column;
-    align-self: center;     
+    align-self: center;
 }
-.divImg div{
+.divImg div {
     max-width: 100%;
 }
-.divImg div img{
+.divImg div img {
     width: 100%;
 }
-.divText{
+.divText {
     width: 100%;
-    font-size: 0.8rem;          
+    font-size: 0.8rem;
 }
-.divText h3{
+.divText h3 {
     font-size: 1.1rem;
 }
-.divText p{
+.divText p {
     margin-top: 10px;
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(0, 0, 0, 0.6);
 }
 
-
-.divBotao{
+.divBotao {
     position: absolute;
     display: flex;
-    bottom: 0px;   
+    bottom: 0px;
     width: calc(100% - 40px);
     padding-bottom: 20px;
-    justify-content: center;   
+    justify-content: center;
 }
-.divBotao button{    
+.divBotao button {
     width: 100%;
     max-width: 269px;
     margin-right: 0px;
     display: none;
-    
 }
-.bt{
+.bt {
     height: 50px;
     border-radius: 15px;
-    width: calc(100%/2 - 20px);
+    width: calc(100% / 2 - 20px);
     border: 1px solid darkblue;
     margin-right: 10px;
-    cursor: pointer; 
-    color: darkblue; 
+    cursor: pointer;
+    color: darkblue;
 }
